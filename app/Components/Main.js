@@ -7,7 +7,7 @@ export function Main() {
   $main.className += `row d-flex justify-content-center`;
 
   $main.innerHTML += CalcTitle();
-  $main.innerHTML += `<div class="d-flex justify-content-center">${Buttons()}</div>`;
+  $main.innerHTML += `<div class="d-flex justify-content-center flex-wrap w-25">${Buttons()}</div>`;
 
   return $main;
 }
